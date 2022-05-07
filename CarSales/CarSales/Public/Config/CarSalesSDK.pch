@@ -1,0 +1,56 @@
+//
+//  CarSalesSDK_pch
+//  CarSales
+//
+//  Created by 谢吴军 on 2021/9/1.
+//
+
+#ifndef CarSalesSDK_pch
+#define CarSalesSDK_pch
+
+/// 头文件导入
+// ？？？$(inherited)$(PROJECT_DIR)？？？
+// 0.系统文件
+#import <UIKit/UIKit.h>
+#import <CommonCrypto/CommonDigest.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+#import <AdSupport/AdSupport.h>
+#import <StoreKit/StoreKit.h>
+#import <objc/runtime.h>
+#import <AuthenticationServices/AuthenticationServices.h>
+#import <WebKit/WebKit.h>
+#import "JSONModel.h"
+#import "sys/utsname.h"
+#import "sys/types.h"
+#import "sys/sysctl.h"
+// 1.Libs
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "IQKeyboardManager.h"
+#import "MBProgressHUD.h"
+#import "WebViewJavascriptBridge.h"
+#import "UIImageView+WebCache.h"
+// 2.Commons
+#import "CarSalesConst.h"
+#import "CarSalesConfig.h"
+#import "CarSalesUtilsFunc.h"
+#import "CarSalesRequestFunc.h"
+// 3.Category
+#import "UIColor+CarSales.h"
+#import "UIFont+CarSales.h"
+#import "UILabel+CarSales.h"
+#import "UIButton+CarSales.h"
+#import "UIView+CarSales.h"
+#import "UIDevice+CarSales.h"
+#import "NSDictionary+CarSales.h"
+// 4.Model
+
+// 5.Views
+
+// 6.Controllers
+
+// 7.基础文件
+
+// 8.封装文件
+
+#endif
